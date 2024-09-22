@@ -165,16 +165,16 @@ html {
 
 body {
   background-color: var(--eerie-black-1);
-  color: var(--white);
+  color: var(--black);
   font-family: var(--fontFamily-dm_sans);
   font-size: var(--fontSize-body-4);
   font-weight: var(--weight-regular);
   line-height: var(--lineHeight-5);
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 300vh;
 }
 
-body.loaded { overflow: overlay; }
+/* body.loaded { overflow: overlay; } */
 
 body.nav-active { overflow: hidden; }
 
@@ -273,7 +273,7 @@ body.nav-active { overflow: hidden; }
 
 .hover-underline::after {
   content: "";
-  position: absolute;
+  position: absoluBookte;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -466,7 +466,6 @@ body.nav-active { overflow: hidden; }
 .icon-wrapper ion-icon:last-child { right: 10px; }
 
 
-
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -635,10 +634,6 @@ body.nav-active { overflow: hidden; }
   pointer-events: all;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
@@ -762,9 +757,6 @@ body.nav-active { overflow: hidden; }
 .hero .slider-item.active .hero-text { animation-delay: 1.5s; }
 
 .hero .slider-item.active .btn { animation-delay: 2s; }
-
-
-
 
 
 /*-----------------------------------*\
