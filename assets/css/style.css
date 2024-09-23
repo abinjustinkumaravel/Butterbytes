@@ -475,6 +475,7 @@ body.nav-active { overflow: hidden; }
 .header {
   position:fixed;
   width:100%;
+  height:80px;
   background-color:rgb(255, 255, 255);
   padding-left: 40px;
   padding-right: 40px;
@@ -560,6 +561,7 @@ body.nav-active { overflow: hidden; }
   max-width: max-content;
   margin-inline: auto;
   margin-block-end: 60px;
+
 }
 
 .navbar-list {
@@ -643,7 +645,7 @@ body.nav-active { overflow: hidden; }
 .hero {
   position: relative;
   padding-block: 120px;
-  min-height: 100vh;
+  height: 40vh;
   overflow: hidden;
   z-index: 1;
 }
@@ -735,8 +737,6 @@ body.nav-active { overflow: hidden; }
 .hero .slider-item.active .slider-reveal {
   animation: sliderReveal 1s ease forwards;
 }
-
-
 
 @keyframes sliderReveal {
   0% {
