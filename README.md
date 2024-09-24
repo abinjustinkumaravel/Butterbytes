@@ -1,9 +1,9 @@
 <div aling="center">
   <h2 align="center">ButterBytes</h2>
 
-  This website is a fully responsive Comming Soon website, <br />Responsive for all devices, build using Html, Css and JavaScript.
+  This website is a fully responsive Bakery website, <br />Responsive for all devices, build using Html, Css and JavaScript.
 
-  <a href=""><strong>Website is on Live</strong></a>
+  <a href=""><strong>Website is on Live Very soon </strong></a>
 
 </div>
 
@@ -17,18 +17,18 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Aysisphere** locally, run this command on your git bash:
+To run **ButterBytes** locally, run this command on your git bash:
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/abinjustinkumaravel/Pommi-Caters.git
+sudo git clone https://github.com/abinjustinkumaravel/Butterbytes.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/abinjustinkumaravel/Pommi-Caters.git
+git clone https://github.com/abinjustinkumaravel/Butterbytes.git
 ```
 
 ### Contact
