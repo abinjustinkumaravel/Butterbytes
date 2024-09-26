@@ -50,6 +50,8 @@ body{
 
 .nav-menu{
   width: 50%;
+  display: block;
+  align-items: center;
 }
 
 .nav .nav-items{
@@ -57,7 +59,6 @@ body{
   display: flex;
   width:100%;
   justify-content: space-between;
-  
 }
 
 .nav .nav-items a{
@@ -65,7 +66,26 @@ body{
   color:var(--gold);
 }
 
+.nav i{
+  font-size: 30px;
+  display: none;
+}
 
+
+@media only screen and (max-width: 768px) {
+  
+  .nav i{
+    display: block;
+  }
+
+  .nav-menu{
+    display: none;
+  }
+  .nav{
+    margin-left: 0;
+    padding: 20px;
+  }
+}
 /* ===================== Hero ================== */
 
 
@@ -187,10 +207,20 @@ body{
   width: 300px;
   gap: 50px;
 }
+
+.Menu .col p{
+
+  color: white;
+  font-size:20px;
+  font-weight: 700;
+}
+
+
 .Menu .col img{
   width: 250px;
   height: 300px;
   border-radius: 20px;
+  border: 2px solid var(--gold);
 }
 
 .Menu .button a{
@@ -214,7 +244,6 @@ body{
 /* ===================== about ================== */
 
 .about{
-  margin-top: 100px;
   height: fit-content;
 }
 
@@ -234,37 +263,26 @@ body{
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.about .about-content {
+.about .row {
   height: fit-content;
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  justify-content: space-between;
+  
   text-align: left;
-  align-items: center;
-  margin-left: 10%;
-  padding: 50px;
 
 }
 
-.about .about-content p{
-  align-items: center;
-  padding: 50px;
-  font-size: 25px;
-  color: white;
+.about .row p{
+
 }
 
-.about .about-content img{
 
-  width:400px;
-  height:450px;
-  border-radius: 20px;
-}
 
 .about .topics{
-  width: 80%;
-  margin-left: 5%;
-  justify-content: left;
+  justify-content: center;
   color: #ceab5a;
+  margin: 50px;
 }
