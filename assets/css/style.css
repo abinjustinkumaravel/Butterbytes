@@ -26,6 +26,17 @@
   
 }
 
+
+body{
+  width: 100%;
+  position: relative;
+  background-color: #180602;
+  height: fit-content;
+  overflow-x:hidden;
+}
+   
+/* ===================== Navbar ================== */
+
 .nav{
   /* width: 80%; */
   height: fit-content;
@@ -53,6 +64,10 @@
   text-decoration: none;
   color:var(--gold);
 }
+
+
+/* ===================== Hero ================== */
+
 
 .hero{
   width: 100%;
@@ -99,21 +114,27 @@
   border-radius: 10px;
 }
 
+
+/* ===================== Category ================== */
+
 .category{
   width:100%;
   text-align: center;
   padding-top: 20px;
   overflow: hidden;
   color: #ceab5a;
-  background-color:blanchedalmond;
+  background-color:transparent;
 }
 
 .category .row{
   width:80%;
+  padding:20px;
+  border-radius: 20px;
   margin-left:10%;
   height: fit-content;
   display: flex;
   margin-top: 20px;
+  background-color: antiquewhite;
 }
 .category .col{
   color: black;
@@ -126,10 +147,124 @@
   margin: 5px;
   border: 3px solid var(--gold);
 }
+.category col:hover{
+  transition: 0.5s;
+  transform: scaleY(1.5);
+}
 
 
+.carousel{
+  width: 100%;
+  /* background: #000; */
+
+}
+
+/* ===================== Menu ================== */
+.Menu{
+
+  position: relative;
+  overflow: hidden;
+
+}
 
 
+.Menu .menu-row{
+  width: 100%;
+  display:flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  text-align: center;
+  overflow-x: scroll;
+  margin-top: 50px;
+
+  gap: 50px;
+}
+
+.Menu .menu-row::-webkit-scrollbar{
+  display: none;
+}
+.Menu .col{
+  width: 300px;
+  gap: 50px;
+}
+.Menu .col img{
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.Menu .button a{
+  width: 150px;
+  text-decoration: none;
+  color: var(--gold);
+  padding: 10px;
+  border: 2px solid var(--gold);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.Menu .button{
+  margin-top:20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 
+/* ===================== about ================== */
 
+.about{
+  margin-top: 100px;
+  height: fit-content;
+}
+
+.about .button a{
+  width: 150px;
+  text-decoration: none;
+  color: var(--gold);
+  padding: 10px;
+  border: 2px solid var(--gold);
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.about .button{
+  margin-top:20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about .about-content {
+  height: fit-content;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+  margin-left: 10%;
+  padding: 50px;
+
+}
+
+.about .about-content p{
+  align-items: center;
+  padding: 50px;
+  font-size: 25px;
+  color: white;
+}
+
+.about .about-content img{
+
+  width:400px;
+  height:450px;
+  border-radius: 20px;
+}
+
+.about .topics{
+  width: 80%;
+  margin-left: 5%;
+  justify-content: left;
+  color: #ceab5a;
+}
