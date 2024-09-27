@@ -7,6 +7,7 @@ header{
   background-color: #180602a8;
   position: fixed;
   z-index: 99;
+  height:95px;
 }
 
 .topics{
