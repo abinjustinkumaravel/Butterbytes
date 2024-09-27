@@ -46,6 +46,7 @@ body{
   position: fixed;
   margin-left: 10%;
   z-index: 99;
+  background-color:#180602c5;
 }
 
 .nav-menu{
