@@ -1,9 +1,9 @@
 <div aling="center">
   <h2 align="center">ButterBytes</h2>
 
-  This website is a fully responsive Bakery website, <br />Responsive for all devices, build using Html, Css and JavaScript.
+This website is a fully responsive Bakery website, <br />Responsive for all devices, build using Html, Css and JavaScript.
 
-  <a href=""><strong>Website is on Live Very soon </strong></a>
+<a href=""><strong>Website is on Live Very soon </strong></a>
 
 </div>
 
@@ -13,7 +13,7 @@
 
 Before you begin, ensure you have met the following requirements:
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+- [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
 ### Run Locally
 
