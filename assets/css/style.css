@@ -3,6 +3,12 @@
   --gold:#ceab5a;
   --white:white;
 }
+header{
+  background-color: #180602a8;
+  position: fixed;
+  z-index: 99;
+  height:95px;
+}
 
 .topics{
   display: flex;
@@ -38,15 +44,11 @@ body{
 /* ===================== Navbar ================== */
 
 .nav{
-  /* width: 80%; */
   height: fit-content;
   display: flex;
   justify-content:space-between;
   align-items: center;
-  position: fixed;
   margin-left: 10%;
-  z-index: 99;
-  background-color:#180602c5;
 }
 
 .nav-menu{
