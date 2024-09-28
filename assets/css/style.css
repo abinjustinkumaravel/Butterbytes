@@ -187,6 +187,7 @@ body{
 
   position: relative;
   overflow: hidden;
+  margin-top: 50px;
 
 }
 
@@ -248,6 +249,8 @@ body{
 
 .about{
   height: fit-content;
+  margin-top: 50px;
+
 }
 
 .about .button a{
@@ -288,7 +291,8 @@ body{
 .about .topics{
   justify-content: center;
   color: #ceab5a;
-  margin: 50px;
+  margin: 100px;
+
 }
 
 
@@ -296,7 +300,7 @@ body{
 
 .works{
 
-  margin-top: 50px;
+  margin-top: 100px;
   color: #ceab5a;
   display: flex;
   justify-content: center;
@@ -313,11 +317,15 @@ body{
   display: flex;
   justify-content: center;
 }
+.works .collage{
 
+  margin-top: 100px;
+
+}
 .works .collage img{
   width:350px;
   border-radius: 20px;
-
+  padding: 10px;
 }
 
 /* ===================== Testimonials ================== */
@@ -329,6 +337,7 @@ h3 {
 
 .section-padding {
   padding: 80px 0;
+  margin-top: 100px;
 
 }
 /* .section-padding .content{
@@ -365,6 +374,10 @@ justify-content: center;
   margin: 5px;
   transition: .2s;
   border-radius: 2px;
+}
+
+.client-testimonial-carousel{
+  margin-top: 100px;
 }
 
 .client-testimonial-carousel button.owl-dot.active {
@@ -428,6 +441,74 @@ justify-content: center;
   margin-top: 5px;
   color: white;
 }
+/*===================== Details ======================== */
+
+.details img {
+  width: 400px;
+}
+
+.details .img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details .details-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.details .chat{
+  width:100%;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+
+.details .chat-content{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  color: #000;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.details .details-content .or{
+  color: #ceab5a;
+}
+
+
+
+.details .chat-content button{
+  font-size: x-large;
+  border-radius:10px;
+  background: #33ff00;
+  color: #fff;
+  border:none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.details .chat-content button i{
+
+  font-size: xx-large;
+}
+
+
 
 /* ===================== Footers ================== */
 
