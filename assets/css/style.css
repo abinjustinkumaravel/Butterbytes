@@ -480,28 +480,46 @@ justify-content: center;
   align-items: center;
   padding: 10px;
   color: #000;
-  background: #ffffff;
   border-radius: 10px;
 }
 
 .details .details-content .or{
   color: #ceab5a;
+  margin: 10px;
 }
 
 
 
 .details .chat-content button{
+  width: 350px;
+  height: fit-content;
   font-size: x-large;
   border-radius:10px;
   background: #33ff00;
   color: #fff;
   border:none;
-  padding: 10px;
   display: flex;
+  padding: 5px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
+
+.details .call-content button{
+  width: 350px;
+  height: fit-content;
+  font-size: x-large;
+  border-radius:10px;
+  background: #219bff;
+  color: #fff;
+  border:none;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 
 .details .chat-content button i{
 
