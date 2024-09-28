@@ -34,9 +34,10 @@ header{
 
 
 body{
-  width: 100%;
   position: relative;
   background-color: #180602;
+  /* background-color: #ffffff; */
+
   height: fit-content;
   overflow-x:hidden;
 }
@@ -101,7 +102,7 @@ body{
   justify-content: center;
   /* align-items:center; */
   text-align: center;
-  
+  /* background-color: #dadfd3; */
 }
 
 .hero img{
@@ -305,11 +306,12 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .works h2{
 
-  margin: 20px;
+  /* margin: 20px; */
 
 
 }
@@ -340,11 +342,6 @@ h3 {
   margin-top: 100px;
 
 }
-/* .section-padding .content{
-
-display: flex;
-justify-content: center;
-} */
 
 .section-title {
   text-align: center;
@@ -443,8 +440,18 @@ justify-content: center;
 }
 /*===================== Details ======================== */
 
+.contact{
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
 .details img {
   width: 400px;
+}
+
+details{
+  background-color: #a7fa33;
+
 }
 
 .details .img{
@@ -462,8 +469,12 @@ justify-content: center;
   color: white;
 }
 
+.details .details-content h3{
+  margin-bottom: 30px;
+}
+
 .details .chat{
-  width:100%;
+
   display: flex;
   gap: 50px;
   justify-content: center;
@@ -471,37 +482,43 @@ justify-content: center;
   align-items: center;
 }
 
-
-.details .chat-content{
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  padding: 10px;
-  color: #000;
-  background: #ffffff;
-  border-radius: 10px;
-}
-
 .details .details-content .or{
   color: #ceab5a;
+  margin: 20px;
 }
 
 
 
 .details .chat-content button{
+  width: 320px;
+  height: fit-content;
   font-size: x-large;
   border-radius:10px;
   background: #33ff00;
   color: #fff;
   border:none;
-  padding: 10px;
   display: flex;
+  padding: 5px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
+
+.details .call-content button{
+  width: 320px;
+  height: fit-content;
+  font-size: x-large;
+  border-radius:10px;
+  background: #219bff;
+  color: #fff;
+  border:none;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 
 .details .chat-content button i{
 
@@ -522,6 +539,7 @@ justify-content: center;
 	font: bold 16px sans-serif;
 	padding: 55px 50px;
   color:#fff!important;
+  overflow: hidden;
 }
 
 .footer .footer-left,
