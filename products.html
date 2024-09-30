@@ -13,69 +13,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-  <style>
-    
-
-.products{
-
-margin: 50px;
-}
-.products .topics{
-
-color: #ceab5a;
-}
-.products .product-header{
-max-width: 500px;
-padding: 5px;
-}
-
-.products .product-headers{
-
-display: flex;
-justify-content: space-between;
-}
-
-.product-card {
-margin-bottom: 30px;
-background-color: #4b2709;
-border-radius: 10px;
-color: #fff;
-}
-.product-img {
-height: 200px;
-object-fit: cover;
-border-radius: 10px;
-}
-.discount-badge {
-position: absolute;
-top: 10px;
-right: 10px;
-color:#ceab5a;
-background-color: #4b2709b9;
-padding: 5px 10px;
-border-radius: 5px;
-}
-.rating {
-position: absolute;
-top: 10px;
-left: 10px;
-background-color:#ceab5a;
-padding: 5px;
-border-radius: 50%;
-font-size: 12px;
-font-weight: bold;
-}
-.product-price {
-font-size: 1.2rem;
-font-weight: bold;
-}
-.discounted-price {
-color:#ceab5a;
-text-decoration: line-through;
-}
-
-  </style>
-
   <body>
 <header class="container-fluid">
   <nav class="nav container-md">
@@ -83,17 +20,12 @@ text-decoration: line-through;
       <img src="/assets/images/ButterBytes.png" alt="">
       <h2>ButterBytes</h2>
     </div>
-    <div class="nav-menu">
+    <!-- <div class="nav-menu">
       <ul class="nav-items">
-        <a href="#Home"><li>Home</li></a>
-        <a href="#Menu"><li>Menu</li></a>
-        <a href="#About"><li>About</li></a>
-        <a href="#Works"><li>Our Works</li></a>
-        <a href="#Contact"><li>Contact</li></a>
       </ul>
-    </div>
-    <div class="icon">
-      <i class="fa-solid fa-bars" style="color: #ceab5a;"></i>
+    </div> -->
+    <div class="icon_product">
+      <a href="/"><i class="fa-solid fa-arrow-left" style="color: #ceab5a; font-size: 15px; display: flex; justify-content: center; align-items: center;"></i><span>Back to Home</span></a>
     </div>
   </nav>
 </header>
@@ -107,8 +39,7 @@ text-decoration: line-through;
     </div>
   </section>
 
-
-  <section id="products" class="products">
+<section id="products" class="products">
 
     <div class="topics"><h2>What We Offers</h2></div>
 
@@ -134,178 +65,176 @@ text-decoration: line-through;
       <!-- Product Cards will be dynamically added here -->
     </div>
   </div>
+</section>
 
-
-
-  </section>
-  <footer class="footer container-fluid" role="contentinfo" itemscope itemtype="http://schema.org/Person">
+  <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/Person">
+    <div class="footer-1">
     <div class="footer-left" itemscope itemtype="http://schema.org/Person" class="h-card">
-        <div style=" display: flex; justify-content: center; text-align: center; align-items: center;">
-          <img src="/assets/images/ButterBytes.png"  itemprop="image" class="u-logo logo" />
-          <h3 itemprop="name" class="p-name">ButterBytes</h3>
-        </div>
-        <p class="p-job-title"  itemprop="jobTitle">Made with Fenisees</p>
-        <nav aria-label="Footer Navigation">
-            <p class="footer-links">
-                <a href="#" itemprop="url" class="link-1">Home</a>
-                <a href="#" itemprop="url">Menu</a>
-                <a href="#" itemprop="url">works</a>
-                <a href="#" itemprop="url">Contact</a>
-            </p>
-        </nav>
-        <p class="footer-name">© 2024 AahrbitX pvt</p>
+      <div style=" display: flex; justify-content: center; text-align: center; align-items: center;">
+        <img src="/assets/images/ButterBytes.png"  itemprop="image" class="u-logo logo" />
+        <h3 itemprop="name" class="p-name">ButterBytes <br> <span>Made with Fenisees</span></h3>
+      </div>
+      <nav aria-label="Footer Navigation">
+          <p class="footer-links">
+              <a href="#" itemprop="url" class="link-1">Home</a>
+              <a href="#Menu" itemprop="url">Menu</a>
+              <a href="#Works" itemprop="url">works</a>
+              <a href="#Contact" itemprop="url">Contact</a>
+          </p>
+      </nav>
+      <p class="footer-name">© 2024 ButterBytes</p>
     </div>
-  
+
     <div class="footer-center">
-        <div itemscope itemtype="http://schema.org/PostalAddress" class="p-address">
-            <i class="fa fa-map-marker" aria-hidden="true"></i>
-            <p>
-                <span itemprop="streetAddress" class="p-street-address">123 This is a Street</span>,
-                <span itemprop="addressLocality" class="p-locality">A Locality</span>,
-                <span itemprop="addressRegion" class="p-region">Region state</span>,
-                <span itemprop="postalCode" class="p-postal-code">12345</span>
-            </p>
-        </div>
-        <div>
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            <p itemprop="telephone" class="p-tel">+1 234567890</p>
-        </div>
-        <div>
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            <p><a href="mailto:myname@mail.com" itemprop="email" class="u-email">myname@mail.com</a></p>
-        </div>
+      <div class="p-address">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <p> Tambaram, Chennai,<br> TamilNadu,
+            600045</p>
+      </div>
+      <div>
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <p itemprop="telephone" class="p-tel">+91 63857 82727</p>
+      </div>
+      <div>
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <p><a href="mailto:myname@mail.com" itemprop="email" class="u-email">support@butterbytes.com</a></p>
+      </div>
     </div>
-  
+
     <div class="footer-right">
-        <p class="footer-about">
-          <span>About Me</span>
-            Not a web developer, but have a knack for creating stunning websites and applications. Everywhere @sdavidprince
-        </p>
-        <div class="footer-socials">
-          <a href="#" rel="me" aria-label="Twitter" itemprop="sameAs" class="u-url"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="#" rel="me" aria-label="Threads" itemprop="sameAs" class="u-url"><i class="fa-brands fa-threads"></i></a>
-          <a href="#" rel="me" aria-label="Facebook" itemprop="sameAs" class="u-url"><i class="fa-brands fa-facebook"></i></a>
-          <a href="#" rel="me" aria-label="Instagram" itemprop="sameAs" class="u-url"><i class="fa-brands fa-instagram"></i></a>
-        </div>
+      <p class="footer-about ">
+        <span>About Me</span>
+        Butterbytes, bring you the taste of home with every bite! Founded with a passion for creating delicious, wholesome snacks, we specialize in handcrafting a variety of treats using the finest ingredients and traditional recipes.
+      </p>
+      <div class="footer-socials">
+        <a href="#" rel="me" aria-label="Twitter" itemprop="sameAs" class="u-url"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" rel="me" aria-label="Threads" itemprop="sameAs" class="u-url"><i class="fa-brands fa-threads"></i></a>
+        <a href="#" rel="me" aria-label="Facebook" itemprop="sameAs" class="u-url"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" rel="me" aria-label="Instagram" itemprop="sameAs" class="u-url"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    </div>
+    <div class="footer-2">
+      <p> Developed & Designed <span>&hearts;</span> by AahrbitX Solutions<p></p>
     </div>
   </footer>
 
   <script>
     // Product data array (you can replace this with API data in real applications)
-    const products = [
-  {
-    name: "Cho Cake",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 15000,
-    discountedPrice: 12000,
-    rating: 4.7,
-    imageUrl: "./assets/images/Cake.jpg",
-    category: "cakes",
-    discount: 20
-  },
-  {
-    name: "Cho Brownie",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 20000,
-    discountedPrice: 18000,
-    rating: 4.5,
-    imageUrl: "./assets/images/Brownies.jpg",
-    category: "brownies",
-    discount: 10
-  },
-  {
-    name: "Leather Jacket",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 8000,
-    discountedPrice: 6000,
-    rating: 4.8,
-    imageUrl: "./assets/images/muffin.jpg",
-    category: "cup-cakes",
-    discount: 25
-  },
+// const products = [
+//   {
+//     name: "Cho Cake",
+//     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+//     price: 15000,
+//     discountedPrice: 12000,
+//     rating: 4.7,
+//     imageUrl: "./assets/images/Cake.jpg",
+//     category: "cakes",
+//     discount: 20
+//   },
+//   {
+//     name: "Cho Brownie",
+//     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+//     price: 20000,
+//     discountedPrice: 18000,
+//     rating: 4.5,
+//     imageUrl: "./assets/images/Brownies.jpg",
+//     category: "brownies",
+//     discount: 10
+//   },
+//   {
+//     name: "Leather Jacket",
+//     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+//     price: 8000,
+//     discountedPrice: 6000,
+//     rating: 4.8,
+//     imageUrl: "./assets/images/muffin.jpg",
+//     category: "cup-cakes",
+//     discount: 25
+//   },
 
-  {
-    name: "Bun",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 15000,
-    discountedPrice: 12000,
-    rating: 4.7,
-    imageUrl: "./assets/images/bun.png",
-    category: "cakes",
-    discount: 20
-  },
-  {
-    name: "Donuts",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 20000,
-    discountedPrice: 18000,
-    rating: 4.5,
-    imageUrl: "./assets/images/macarons-4701978_1920.jpg",
-    category: "brownies",
-    discount: 10
-  },
-  {
-    name: "Leather Jacket",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 8000,
-    discountedPrice: 6000,
-    rating: 4.8,
-    imageUrl: "./assets/images/donut's.png",
-    category: "cakes",
-    discount: 25
-  },
-  // Add more products here...
-];
+//   {
+//     name: "Bun",
+//     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+//     price: 15000,
+//     discountedPrice: 12000,
+//     rating: 4.7,
+//     imageUrl: "./assets/images/bun.png",
+//     category: "cakes",
+//     discount: 20
+//   },
+//   {
+//     name: "Donuts",
+//     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+//     price: 20000,
+//     discountedPrice: 18000,
+//     rating: 4.5,
+//     imageUrl: "./assets/images/macarons-4701978_1920.jpg",
+//     category: "brownies",
+//     discount: 10
+//   },
+//   {
+//     name: "Leather Jacket",
+//     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+//     price: 8000,
+//     discountedPrice: 6000,
+//     rating: 4.8,
+//     imageUrl: "./assets/images/donut's.png",
+//     category: "cakes",
+//     discount: 25
+//   },
+//   // Add more products here...
+// ];
 
-// Function to render products
-function renderProducts(productList) {
-  const productGrid = document.getElementById('productGrid');
-  productGrid.innerHTML = ''; // Clear the grid before rendering
+// // Function to render products
+// function renderProducts(productList) {
+//   const productGrid = document.getElementById('productGrid');
+//   productGrid.innerHTML = ''; // Clear the grid before rendering
 
-  productList.forEach(product => {
-    const productCard = `
-      <div class="col-md-4">
-        <div class="card product-card">
-          <div class="position-relative">
-            <img src="${product.imageUrl}" class="card-img-top product-img" alt="${product.name}">
-            <span class="rating">${product.rating}</span>
-            <span class="discount-badge">${product.discount}% OFF</span>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">${product.name}</h5>
-            <p class="card-text">${product.description}</p>
-            <p class="product-price">
-              ₹${product.discountedPrice} <span class="discounted-price">₹${product.price}</span>
-            </p>
-            <a href="#" class="btn btn-primary">Call to Order</a>
-          </div>
-        </div>
-      </div>
-    `;
-    productGrid.innerHTML += productCard;
-  });
-}
+//   productList.forEach(product => {
+//     const productCard = `
+//       <div class="col-md-4">
+//         <div class="card product-card">
+//           <div class="position-relative">
+//             <img src="${product.imageUrl}" class="card-img-top product-img" alt="${product.name}">
+//             <span class="rating">${product.rating}</span>
+//             <span class="discount-badge">${product.discount}% OFF</span>
+//           </div>
+//           <div class="card-body">
+//             <h5 class="card-title">${product.name}</h5>
+//             <p class="card-text">${product.description}</p>
+//             <p class="product-price">
+//               ₹${product.discountedPrice} <span class="discounted-price">₹${product.price}</span>
+//             </p>
+//             <a href="#" class="btn btn-primary">Call to Order</a>
+//           </div>
+//         </div>
+//       </div>
+//     `;
+//     productGrid.innerHTML += productCard;
+//   });
+// }
 
-// Initial render of all products
-renderProducts(products);
+// // Initial render of all products
+// renderProducts(products);
 
-// Search functionality
-document.getElementById('searchInput').addEventListener('input', function () {
-  const query = this.value.toLowerCase();
-  const filteredProducts = products.filter(product =>
-    product.name.toLowerCase().includes(query)
-  );
-  renderProducts(filteredProducts);
-});
+// // Search functionality
+// document.getElementById('searchInput').addEventListener('input', function () {
+//   const query = this.value.toLowerCase();
+//   const filteredProducts = products.filter(product =>
+//     product.name.toLowerCase().includes(query)
+//   );
+//   renderProducts(filteredProducts);
+// });
 
-// Filter functionality
-document.getElementById('categoryFilter').addEventListener('change', function () {
-  const selectedCategory = this.value;
-  const filteredProducts = selectedCategory
-    ? products.filter(product => product.category === selectedCategory)
-    : products;
-  renderProducts(filteredProducts);
-});
+// // Filter functionality
+// document.getElementById('categoryFilter').addEventListener('change', function () {
+//   const selectedCategory = this.value;
+//   const filteredProducts = selectedCategory
+//     ? products.filter(product => product.category === selectedCategory)
+//     : products;
+//   renderProducts(filteredProducts);
+// });
 
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
