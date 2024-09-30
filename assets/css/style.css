@@ -326,6 +326,14 @@ body{
 
 }
 
+.about .why p{
+  background-color: #f3e3bc;
+  padding: 20px;
+  text-align: center;
+  color:var(--choco);
+  border-radius: 20px;
+  
+}
 
 /* ===================== Our Work ================== */
 
