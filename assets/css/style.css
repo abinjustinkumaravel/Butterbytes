@@ -87,22 +87,21 @@ body{
 }
 
 .nav .icon_product a{
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500px;
   display: flex;
   text-decoration: none;
-  border:1px solid var(--gold);
-  padding: 5px;
-  gap: 10px;
-  border-radius: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
+  color: var(--gold);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.nav .icon_product a span{
+/* .nav .icon_product a span{
   font-size: 15px;
   color: #ceab5a;
-}
+} */
 
 @media only screen and (max-width: 960px) {
   .nav i{
@@ -135,6 +134,12 @@ body{
   .nav{
     margin-left: 0;
     padding: 20px;
+  }
+
+  .nav .icon_product span{
+    display: none;
+
+
   }
 
   .hide{
@@ -867,4 +872,7 @@ details{
   color:#ceab5a;
   text-decoration: line-through;
   }
+
+
+
   

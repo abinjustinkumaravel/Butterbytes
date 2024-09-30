@@ -1,0 +1,62 @@
+
+[{
+      "name": "Cho Cake",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 15000,
+      "discountedPrice": 12000,
+      "rating": 4.7,
+      "imageUrl": "./assets/images/Cake.jpg",
+      "category": "cakes",
+      "discount": 20
+    },
+    {
+      "name": "Cho Brownie",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 20000,
+      "discountedPrice": 18000,
+      "rating": 4.5,
+      "imageUrl": "./assets/images/Brownies.jpg",
+      "category": "brownies",
+      "discount": 10
+    },
+    {
+      "name": "Leather Jacket",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 8000,
+      "discountedPrice": 6000,
+      "rating": 4.8,
+      "imageUrl": "./assets/images/muffin.jpg",
+      "category": "cup-cakes",
+      "discount": 25
+    },
+    {
+      "name": "Bun",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 15000,
+      "discountedPrice": 12000,
+      "rating": 4.7,
+      "imageUrl": "./assets/images/bun.png",
+      "category": "cakes",
+      "discount": 20
+    },
+    {
+      "name": "Donuts",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 20000,
+      "discountedPrice": 18000,
+      "rating": 4.5,
+      "imageUrl": "./assets/images/macarons-4701978_1920.jpg",
+      "category": "brownies",
+      "discount": 10
+    },
+    {
+      "name": "Leather Jacket",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 8000,
+      "discountedPrice": 6000,
+      "rating": 4.8,
+      "imageUrl": "./assets/images/donut's.png",
+      "category": "cakes",
+      "discount": 25
+}
+]
