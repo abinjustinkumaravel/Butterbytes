@@ -5,54 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ButterBytes: Happiness in Every Bites</title>
   <link rel="shortcut icon" href="/assets/images/apple-touch-icon.png" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/css/style.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-  <style>
- 
-  </style>
-
   <body>
 <header class="container-fluid">
   <nav class="nav container-md">
-    <div class="logo">
-      <img src="/assets/images/ButterBytes.png" alt="">
-      <h2>ButterBytes</h2>
-    </div>
-    <div class="nav-menu">
-      <ul class="nav-items">
-        <a href="#Home"><li>Home</li></a>
-        <a href="#Menu"><li>Menu</li></a>
-        <a href="#About"><li>About</li></a>
-        <a href="#Works"><li>Our Works</li></a>
-        <a href="#Contact"><li>Contact</li></a>
-      </ul>
-    </div>
-    <div class="icon">
-      <i class="fa-solid fa-bars" style="color: #ceab5a;"></i>
+      <a class="logo" style="text-decoration: none; color: #ceab5a;" href="/"><img src="/assets/images/ButterBytes.png" alt="">
+        <h2>ButterBytes</h2>
+      </a>
+    <div class="icon_product">
+      <a style="color: #ceab5a;" href="/"><i class="fa-solid fa-arrow-left"></i></span></a>
     </div>
   </nav>
 </header>
   <section id="Home" class="hero container-fluid">
     <img src="/assets/images/muffin.jpg" alt="">
     <div class="hero-heading" data-aos="fade-up" data-aos-delay="400" data-aos-easing="ease-in-out">
-      <h1>Let's Feel your <br> Every Bytes</h1>
+      <h1>Every Bite Feels <br> Like Home</h1>
     </div>
     <div class="button">
       <a href="#products"> <span>View Products</span></a>
     </div>
   </section>
 
-
-  <section id="products" class="products">
+<section id="products" class="products">
 
     <div class="topics"><h2>What We Offers</h2></div>
-
   <div class="container mt-4">
     <div class="row mb-3 product-headers">
       <div class="col-md-6 product-header">
@@ -61,9 +43,12 @@
       <div class="col-md-6 product-header">
         <select class="form-select" id="categoryFilter">
           <option value="">Filter by category</option>
-          <option value="cakes">Cakes</option>
+          <option value="muffins">Muffins</option>
+          <option value="cupcakes">Cup Cakes</option>
           <option value="cookies">Cookies</option>
-          <option value="cup-cakes">Cup Cakes</option>
+          <option value="brownies">Brownies</option>
+          <option value="specials">Our Specials</option>
+          <option value="spreads">Spreads</option>
         </select>
       </div>
     </div>
@@ -75,189 +60,63 @@
       <!-- Product Cards will be dynamically added here -->
     </div>
   </div>
+</section>
 
-
-
-  </section>
-  <footer class="footer container-fluid" role="contentinfo" itemscope itemtype="http://schema.org/Person">
+  <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/Person">
+    <div class="footer-1">
     <div class="footer-left" itemscope itemtype="http://schema.org/Person" class="h-card">
-        <div style=" display: flex; justify-content: center; text-align: center; align-items: center;">
-          <img src="/assets/images/ButterBytes.png"  itemprop="image" class="u-logo logo" />
-          <h3 itemprop="name" class="p-name">ButterBytes</h3>
-        </div>
-        <p class="p-job-title"  itemprop="jobTitle">Made with Fenisees</p>
-        <nav aria-label="Footer Navigation">
-            <p class="footer-links">
-                <a href="#" itemprop="url" class="link-1">Home</a>
-                <a href="#" itemprop="url">Menu</a>
-                <a href="#" itemprop="url">works</a>
-                <a href="#" itemprop="url">Contact</a>
-            </p>
-        </nav>
-        <p class="footer-name">© 2024 AahrbitX pvt</p>
+      <div style=" display: flex; justify-content: center; text-align: center; align-items: center;">
+        <img src="/assets/images/ButterBytes.png"  itemprop="image" class="u-logo logo" />
+        <h3 itemprop="name" class="p-name">ButterBytes <br> <span>Made with Finesse</span></h3>
+      </div>
+      <nav aria-label="Footer Navigation">
+          <p class="footer-links">
+              <a href="#" itemprop="url" class="link-1">Home</a>
+              <a href="#Menu" itemprop="url">Menu</a>
+              <a href="#Works" itemprop="url">works</a>
+              <a href="#Contact" itemprop="url">Contact</a>
+          </p>
+      </nav>
+      <p class="footer-name">© 2024 ButterBytes</p>
     </div>
-  
+
     <div class="footer-center">
-        <div itemscope itemtype="http://schema.org/PostalAddress" class="p-address">
-            <i class="fa fa-map-marker" aria-hidden="true"></i>
-            <p>
-                <span itemprop="streetAddress" class="p-street-address">123 This is a Street</span>,
-                <span itemprop="addressLocality" class="p-locality">A Locality</span>,
-                <span itemprop="addressRegion" class="p-region">Region state</span>,
-                <span itemprop="postalCode" class="p-postal-code">12345</span>
-            </p>
-        </div>
-        <div>
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            <p itemprop="telephone" class="p-tel">+1 234567890</p>
-        </div>
-        <div>
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            <p><a href="mailto:myname@mail.com" itemprop="email" class="u-email">myname@mail.com</a></p>
-        </div>
+      <div class="p-address">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <p> Tambaram, Chennai,<br> TamilNadu,
+            600045</p>
+      </div>
+      <div>
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <p itemprop="telephone" class="p-tel">+91 63857 82727</p>
+      </div>
+      <div>
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <p><a href="mailto:myname@mail.com" itemprop="email" class="u-email">support@butterbytes.com</a></p>
+      </div>
     </div>
-  
+
     <div class="footer-right">
-        <p class="footer-about">
-          <span>About Me</span>
-            Not a web developer, but have a knack for creating stunning websites and applications. Everywhere @sdavidprince
-        </p>
-        <div class="footer-socials">
-          <a href="#" rel="me" aria-label="Twitter" itemprop="sameAs" class="u-url"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="#" rel="me" aria-label="Threads" itemprop="sameAs" class="u-url"><i class="fa-brands fa-threads"></i></a>
-          <a href="#" rel="me" aria-label="Facebook" itemprop="sameAs" class="u-url"><i class="fa-brands fa-facebook"></i></a>
-          <a href="#" rel="me" aria-label="Instagram" itemprop="sameAs" class="u-url"><i class="fa-brands fa-instagram"></i></a>
-        </div>
+      <p class="footer-about ">
+        <span>About Me</span>
+        Butterbytes, bring you the taste of home with every bite! Founded with a passion for creating delicious, wholesome snacks, we specialize in handcrafting a variety of treats using the finest ingredients and traditional recipes.
+      </p>
+      <div class="footer-socials">
+        <a href="#" rel="me" aria-label="Twitter" itemprop="sameAs" class="u-url"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" rel="me" aria-label="Threads" itemprop="sameAs" class="u-url"><i class="fa-brands fa-threads"></i></a>
+        <a href="#" rel="me" aria-label="Facebook" itemprop="sameAs" class="u-url"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" rel="me" aria-label="Instagram" itemprop="sameAs" class="u-url"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    </div>
+    <div class="footer-2">
+      <p> Developed & Designed <span>&hearts;</span> by AahrbitX Solutions<p></p>
     </div>
   </footer>
-
-  <script>
-    // Product data array (you can replace this with API data in real applications)
-    const products = [
-  {
-    name: "Cho Cake",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 15000,
-    discountedPrice: 12000,
-    rating: 4.7,
-    imageUrl: "./assets/images/Cake.jpg",
-    category: "cakes",
-    discount: 20
-  },
-  {
-    name: "Cho Brownie",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 20000,
-    discountedPrice: 18000,
-    rating: 4.5,
-    imageUrl: "./assets/images/Brownies.jpg",
-    category: "brownies",
-    discount: 10
-  },
-  {
-    name: "Leather Jacket",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 8000,
-    discountedPrice: 6000,
-    rating: 4.8,
-    imageUrl: "./assets/images/muffin.jpg",
-    category: "cup-cakes",
-    discount: 25
-  },
-
-  {
-    name: "Bun",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 15000,
-    discountedPrice: 12000,
-    rating: 4.7,
-    imageUrl: "./assets/images/bun.png",
-    category: "cakes",
-    discount: 20
-  },
-  {
-    name: "Donuts",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 20000,
-    discountedPrice: 18000,
-    rating: 4.5,
-    imageUrl: "./assets/images/macarons-4701978_1920.jpg",
-    category: "brownies",
-    discount: 10
-  },
-  {
-    name: "Leather Jacket",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    price: 8000,
-    discountedPrice: 6000,
-    rating: 4.8,
-    imageUrl: "./assets/images/donut's.png",
-    category: "cakes",
-    discount: 25
-  },
-  // Add more products here...
-];
-
-// Function to render products
-function renderProducts(productList) {
-  const productGrid = document.getElementById('productGrid');
-  productGrid.innerHTML = ''; // Clear the grid before rendering
-
-  productList.forEach(product => {
-    const productCard = `
-      <div class="col-md-4">
-        <div class="card product-card">
-          <div class="position-relative">
-            <img src="${product.imageUrl}" class="card-img-top product-img" alt="${product.name}">
-            <span class="rating">${product.rating}</span>
-            <span class="discount-badge">${product.discount}% OFF</span>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">${product.name}</h5>
-            <p class="card-text">${product.description}</p>
-            <p class="product-price">
-              ₹${product.discountedPrice} <span class="discounted-price">₹${product.price}</span>
-            </p>
-            <a href="#" class="btn btn-primary">Call to Order</a>
-          </div>
-        </div>
-      </div>
-    `;
-    productGrid.innerHTML += productCard;
-  });
-}
-
-// Initial render of all products
-renderProducts(products);
-
-// Search functionality
-document.getElementById('searchInput').addEventListener('input', function () {
-  const query = this.value.toLowerCase();
-  const filteredProducts = products.filter(product =>
-    product.name.toLowerCase().includes(query)
-  );
-  renderProducts(filteredProducts);
-});
-
-// Filter functionality
-document.getElementById('categoryFilter').addEventListener('change', function () {
-  const selectedCategory = this.value;
-  const filteredProducts = selectedCategory
-    ? products.filter(product => product.category === selectedCategory)
-    : products;
-  renderProducts(filteredProducts);
-});
-
-  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://kit.fontawesome.com/e19484dcd7.js" crossorigin="anonymous"></script>
-  <script>
-    AOS.init();
-  </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="/assets/js/script.js"></script>
 
