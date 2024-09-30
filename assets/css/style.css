@@ -136,12 +136,6 @@ body{
     padding: 20px;
   }
 
-  .nav .icon_product span{
-    display: none;
-
-
-  }
-
   .hide{
     left: -1000px;
   }

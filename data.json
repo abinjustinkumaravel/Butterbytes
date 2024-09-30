@@ -1,62 +1,222 @@
 
 [{
-      "name": "Cho Cake",
+      "name": "Classic Vanilla Muffin",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "price": 15000,
       "discountedPrice": 12000,
       "rating": 4.7,
       "imageUrl": "./assets/images/Cake.jpg",
-      "category": "cakes",
+      "category": "muffins",
       "discount": 20
     },
     {
-      "name": "Cho Brownie",
+      "name": "Rich chocolate Muffin",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 15000,
+      "discountedPrice": 12000,
+      "rating": 4.7,
+      "imageUrl": "./assets/images/Cake.jpg",
+      "category": "muffins",
+      "discount": 20
+    },
+    {
+      "name": "Almond Joy Muffin",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 15000,
+      "discountedPrice": 12000,
+      "rating": 4.7,
+      "imageUrl": "./assets/images/Cake.jpg",
+      "category": "muffins",
+      "discount": 20
+    },
+    {
+      "name": "Nutty Fusion Muffin",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 15000,
+      "discountedPrice": 12000,
+      "rating": 4.7,
+      "imageUrl": "./assets/images/Cake.jpg",
+      "category": "muffins",
+      "discount": 20
+    },
+    {
+      "name": "Vanilla bliss Cupcake",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 15000,
+      "discountedPrice": 12000,
+      "rating": 4.7,
+      "imageUrl": "./assets/images/Cake.jpg",
+      "category": "cupcakes",
+      "discount": 20
+    },
+    {
+      "name": "Cocoa delight Cupcake",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 15000,
+      "discountedPrice": 12000,
+      "rating": 4.7,
+      "imageUrl": "./assets/images/Cake.jpg",
+      "category": "cupcakes",
+      "discount": 20
+    },
+    {
+      "name": "Pineapple paradise Cupcake",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 15000,
+      "discountedPrice": 12000,
+      "rating": 4.7,
+      "imageUrl": "./assets/images/Cake.jpg",
+      "category": "cupcakes",
+      "discount": 20
+    },
+    {
+      "name": "Nutty wonderland Cupcake",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "price": 20000,
       "discountedPrice": 18000,
       "rating": 4.5,
       "imageUrl": "./assets/images/Brownies.jpg",
-      "category": "brownies",
+      "category": "cupcakes",
       "discount": 10
     },
     {
-      "name": "Leather Jacket",
+      "name": "Coconut crunchies Cookies",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "price": 8000,
       "discountedPrice": 6000,
       "rating": 4.8,
       "imageUrl": "./assets/images/muffin.jpg",
-      "category": "cup-cakes",
+      "category": "cookies",
       "discount": 25
     },
     {
-      "name": "Bun",
+      "name": "Meltaway butter cookies",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 8000,
+      "discountedPrice": 6000,
+      "rating": 4.8,
+      "imageUrl": "./assets/images/muffin.jpg",
+      "category": "cookies",
+      "discount": 25
+    },
+    {
+      "name": "Rustic Ragi butter cookies",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 8000,
+      "discountedPrice": 6000,
+      "rating": 4.8,
+      "imageUrl": "./assets/images/muffin.jpg",
+      "category": "cookies",
+      "discount": 25
+    },
+    {
+      "name": "Mini milk cookies",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 8000,
+      "discountedPrice": 6000,
+      "rating": 4.8,
+      "imageUrl": "./assets/images/muffin.jpg",
+      "category": "cookies",
+      "discount": 25
+    },
+    {
+      "name": "Choco chip cookies",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 8000,
+      "discountedPrice": 6000,
+      "rating": 4.8,
+      "imageUrl": "./assets/images/muffin.jpg",
+      "category": "cookies",
+      "discount": 25
+    },
+    {
+      "name": "Fudgy dark chocolate brownie",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "price": 15000,
       "discountedPrice": 12000,
       "rating": 4.7,
       "imageUrl": "./assets/images/bun.png",
-      "category": "cakes",
+      "category": "brownies",
       "discount": 20
     },
     {
-      "name": "Donuts",
+      "name": "Silky white chocolate brownies",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 15000,
+      "discountedPrice": 12000,
+      "rating": 4.7,
+      "imageUrl": "./assets/images/bun.png",
+      "category": "brownies",
+      "discount": 20
+    },
+    {
+      "name": "Nuts overloaded brownies",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 15000,
+      "discountedPrice": 12000,
+      "rating": 4.7,
+      "imageUrl": "./assets/images/bun.png",
+      "category": "brownies",
+      "discount": 20
+    },
+    {
+      "name": "Murukku",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "price": 20000,
       "discountedPrice": 18000,
       "rating": 4.5,
       "imageUrl": "./assets/images/macarons-4701978_1920.jpg",
-      "category": "brownies",
+      "category": "ourspecials",
       "discount": 10
     },
     {
-      "name": "Leather Jacket",
+      "name": "Somas",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "price": 20000,
+      "discountedPrice": 18000,
+      "rating": 4.5,
+      "imageUrl": "./assets/images/macarons-4701978_1920.jpg",
+      "category": "ourspecials",
+      "discount": 10
+    },
+    {
+      "name": "Thattai",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "price": 8000,
       "discountedPrice": 6000,
       "rating": 4.8,
       "imageUrl": "./assets/images/donut's.png",
-      "category": "cakes",
+      "category": "ourspecials",
       "discount": 25
-}
+  },  
+  {
+    "name": "Mixed fruit jam",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "price": 20000,
+    "discountedPrice": 18000,
+    "rating": 4.5,
+    "imageUrl": "./assets/images/macarons-4701978_1920.jpg",
+    "category": "spreads",
+    "discount": 10
+  },
+  {
+    "name": "Tomato ketchup",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "price": 20000,
+    "discountedPrice": 18000,
+    "rating": 4.5,
+    "imageUrl": "./assets/images/macarons-4701978_1920.jpg",
+    "category": "spreads",
+    "discount": 10
+  },
+  {
+    "name": "Peanut butter",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "price": 20000,
+    "discountedPrice": 18000,
+    "rating": 4.5,
+    "imageUrl": "./assets/images/macarons-4701978_1920.jpg",
+    "category": "spreads",
+    "discount": 10
+  }
 ]
