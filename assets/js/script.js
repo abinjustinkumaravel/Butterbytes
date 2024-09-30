@@ -29,7 +29,7 @@ function renderProducts(productList) {
             <p class="product-price">
               ₹${product.discountedPrice} <span class="discounted-price">₹${product.price}</span>
             </p>
-            <a href="#" class="btn btn-primary">Call to Order</a>
+            <a href="tel:+917867987871" class="btn btn-primary">Call to Order</a>
           </div>
         </div>
       </div>
