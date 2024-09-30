@@ -10,83 +10,9 @@ $(document).ready(function(){
     });
   });
 
-
-
-
-// const products=require("./data.json");
-
-// console.log(pro)
-
-// // Product data array (you can replace this with API data in real applications)
-// const products = [
-//   {
-//     name: "Cho Cake",
-//     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-//     price: 15000,
-//     discountedPrice: 12000,
-//     rating: 4.7,
-//     imageUrl: "./assets/images/Cake.jpg",
-//     category: "cakes",
-//     discount: 20
-//   },
-//   {
-//     name: "Cho Brownie",
-//     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-//     price: 20000,
-//     discountedPrice: 18000,
-//     rating: 4.5,
-//     imageUrl: "./assets/images/Brownies.jpg",
-//     category: "brownies",
-//     discount: 10
-//   },
-//   {
-//     name: "Leather Jacket",
-//     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-//     price: 8000,
-//     discountedPrice: 6000,
-//     rating: 4.8,
-//     imageUrl: "./assets/images/muffin.jpg",
-//     category: "cup-cakes",
-//     discount: 25
-//   },
-
-//   {
-//     name: "Bun",
-//     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-//     price: 15000,
-//     discountedPrice: 12000,
-//     rating: 4.7,
-//     imageUrl: "./assets/images/bun.png",
-//     category: "cakes",
-//     discount: 20
-//   },
-//   {
-//     name: "Donuts",
-//     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-//     price: 20000,
-//     discountedPrice: 18000,
-//     rating: 4.5,
-//     imageUrl: "./assets/images/macarons-4701978_1920.jpg",
-//     category: "brownies",
-//     discount: 10
-//   },
-//   {
-//     name: "Leather Jacket",
-//     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-//     price: 8000,
-//     discountedPrice: 6000,
-//     rating: 4.8,
-//     imageUrl: "./assets/images/donut's.png",
-//     category: "cakes",
-//     discount: 25
-//   },
-//   // Add more products here...
-// ];
-
-// Function to render products
 function renderProducts(productList) {
   const productGrid = document.getElementById('productGrid');
-  productGrid.innerHTML = ''; // Clear the grid before rendering
+  productGrid.innerHTML = '';
 
   productList.forEach(product => {
     const productCard = `
@@ -103,7 +29,7 @@ function renderProducts(productList) {
             <p class="product-price">
               ₹${product.discountedPrice} <span class="discounted-price">₹${product.price}</span>
             </p>
-            <a href="#" class="btn btn-primary">Call to Order</a>
+            <a href="tel:+917867987871" class="btn btn-primary">Call to Order</a>
           </div>
         </div>
       </div>
@@ -112,35 +38,12 @@ function renderProducts(productList) {
   });
 }
 
-// // Initial render of all products
-// renderProducts(products);
 
-// // Search functionality
-// document.getElementById('searchInput').addEventListener('input', function () {
-//   const query = this.value.toLowerCase();
-//   const filteredProducts = products.filter(product =>
-//     product.name.toLowerCase().includes(query)
-//   );
-//   renderProducts(filteredProducts);
-// });
-
-// // Filter functionality
-// document.getElementById('categoryFilter').addEventListener('change', function () {
-//   const selectedCategory = this.value;
-//   const filteredProducts = selectedCategory
-//     ? products.filter(product => product.category === selectedCategory)
-//     : products;
-//   renderProducts(filteredProducts);
-// });
-
-// Use fetch() to load the JSON file
 fetch('/data.json')
-  .then(response => response.json()) // Parse JSON
+  .then(response => response.json()) 
   .then(products => {
-    // Render products using the fetched data
     renderProducts(products);
 
-    // Search functionality
     document.getElementById('searchInput').addEventListener('input', function () {
       const query = this.value.toLowerCase();
       const filteredProducts = products.filter(product =>
@@ -149,7 +52,6 @@ fetch('/data.json')
       renderProducts(filteredProducts);
     });
 
-    // Filter functionality
     document.getElementById('categoryFilter').addEventListener('change', function () {
       const selectedCategory = this.value;
       const filteredProducts = selectedCategory
