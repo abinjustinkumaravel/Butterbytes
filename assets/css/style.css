@@ -63,11 +63,25 @@ body{
   display: flex;
   width:100%;
   justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
-
 .nav .nav-items a{
+  display: block;
   text-decoration: none;
   color:var(--gold);
+  align-items: center;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+
+.nav .nav-items a:hover{
+  transform: scale(1.1);
+  border-bottom: 1px solid #ceab5a;
+}
+
+.nav .nav-items{
+
 }
 
 .nav i{
@@ -75,24 +89,62 @@ body{
   display: none;
 }
 
+.nav .icon_product a{
+  font-size: 20px;
+  font-weight: 200;
+  display: flex;
+  text-decoration: none;
+  border:1px solid var(--gold);
+  padding: 5px;
+  gap: 10px;
+  border-radius: 20px;
+}
+
+.nav .icon_product a span{
+  font-size: 15px;
+  color: #ceab5a;
+}
 
 @media only screen and (max-width: 768px) {
-  
   .nav i{
     display: block;
   }
 
   .nav-menu{
-    display: none;
+    position:absolute;
+    width: 100%;
+    top: 95px;
+    left:0px;
+    padding:20px;
+    align-items: center;
+    background-color:  #180602a8;
+    /* z-index:-1; */
+    transition: 0.5s;
+  }
+
+
+  .nav-menu .nav-items{
+    display: block;
+    justify-content: center;
+
+  }
+
+
+  .nav-menu .nav-items a{
+    padding: 10px;
   }
   .nav{
     margin-left: 0;
     padding: 20px;
   }
+
+  .hide{
+    display: none;
+  }
 }
+
+
 /* ===================== Hero ================== */
-
-
 .hero{
   width: 100%;
   height:600px;
@@ -100,9 +152,7 @@ body{
   position: relative;
   display: flex;
   justify-content: center;
-  /* align-items:center; */
   text-align: center;
-  /* background-color: #dadfd3; */
 }
 
 .hero img{
@@ -179,24 +229,20 @@ body{
 
 .carousel{
   width: 100%;
-  /* background: #000; */
-
 }
 
 /* ===================== Menu ================== */
 .Menu{
-
   position: relative;
   overflow: hidden;
   margin-top: 50px;
-
 }
 
 
 .Menu .menu-row{
+
   width: 100%;
   display:flex;
-  /* justify-content: space-between; */
   align-items: center;
   text-align: center;
   overflow-x: scroll;
@@ -717,61 +763,3 @@ details{
 }
 
 /* ====================== Product =============================== */
-
-.products{
-
-  margin: 50px;
-}
-.products .topics{
-
-  color: #ceab5a;
-}
-.products .product-header{
-  max-width: 500px;
-  padding: 5px;
-}
-
-.products .product-headers{
-
-  display: flex;
-  justify-content: space-between;
-}
-
-.product-card {
-  margin-bottom: 30px;
-  background-color: #4b2709;
-  border-radius: 10px;
-  color: #fff;
-}
-.product-img {
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-.discount-badge {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  color:#ceab5a;
-  background-color: #4b2709b9;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-.rating {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color:#ceab5a;
-  padding: 5px;
-  border-radius: 50%;
-  font-size: 12px;
-  font-weight: bold;
-}
-.product-price {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-.discounted-price {
-  color:#ceab5a;
-  text-decoration: line-through;
-}

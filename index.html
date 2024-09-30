@@ -19,12 +19,12 @@
       <img src="/assets/images/ButterBytes.png" alt="">
       <h2>ButterBytes</h2>
     </div>
-    <div class="nav-menu">
+    <div class="nav-menu hide">
       <ul class="nav-items">
         <a href="#Home"><li>Home</li></a>
-        <a href="#Menu"><li>Menu</li></a>
+        <a href="#Menu"><li>Produts</li></a>
         <a href="#About"><li>About</li></a>
-        <a href="#Works"><li>Our Works</li></a>
+        <a href="#Works"><li>Works</li></a>
         <a href="#Contact"><li>Contact</li></a>
       </ul>
     </div>
@@ -33,9 +33,6 @@
     </div>
   </nav>
 </header>
-
-
-
   <section id="Home" class="hero container-fluid">
     <img src="/assets/images/muffin.jpg" alt="">
     <div class="hero-heading" data-aos="fade-up" data-aos-delay="400" data-aos-easing="ease-in-out">
@@ -320,6 +317,21 @@
   <script>
     AOS.init();
   </script>
+
+
+  <script>
+
+    const barId=document.querySelector('.icon')
+    const navMenu =document.querySelector('.nav-menu')
+
+    barId.addEventListener('click', ()=> {
+      navMenu.classList.toggle('hide');
+
+    });
+
+
+
+  </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -327,3 +339,4 @@
     <script src="/assets/js/script.js"></script>
 </body>
 </html>                    
+ 
