@@ -10,6 +10,9 @@ $(document).ready(function(){
     });
   });
 
+  
+
+
 
 
 // Product data array (you can replace this with API data in real applications)

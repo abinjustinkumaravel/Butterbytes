@@ -139,7 +139,7 @@ body{
   }
 
   .hide{
-    display: none;
+    left: -1000px;
   }
 }
 
@@ -297,7 +297,6 @@ body{
 .about{
   height: fit-content;
   margin-top: 50px;
-
 }
 
 .about .button a{
@@ -309,8 +308,6 @@ body{
   border-radius: 10px;
   text-align: center;
 }
-
-
 .about .button{
   margin-top:20px;
   width: 100%;
@@ -318,23 +315,10 @@ body{
   justify-content: center;
   align-items: center;
 }
-
-/* .about .row {
-  height: fit-content;
-  display: flex;
-  align-items: center;
-  
-  text-align: left;
-
-} */
-
 .about .row p{
    
   color:white;
 }
-
-
-
 .about .topics{
   justify-content: center;
   color: #ceab5a;
@@ -353,13 +337,6 @@ body{
   justify-content: center;
   align-items: center;
   overflow: hidden;
-}
-
-.works h2{
-
-  /* margin: 20px; */
-
-
 }
 .works .collage .row div{
   display: flex;
@@ -535,8 +512,9 @@ details{
 
 
 
-.details .chat-content button{
+.details .chat-content a{
   width: 320px;
+  text-decoration: none;
   height: fit-content;
   font-size: x-large;
   border-radius:10px;
@@ -550,8 +528,9 @@ details{
   gap: 20px;
 }
 
-.details .call-content button{
+.details .call-content a{
   width: 320px;
+  text-decoration: none;
   height: fit-content;
   font-size: x-large;
   border-radius:10px;
@@ -574,7 +553,6 @@ details{
 
 
 /* ===================== Footers ================== */
-
 
 .footer{
 	background:#0f0301ce;
@@ -739,7 +717,6 @@ details{
     /* margin-bottom: 15px; */
 
 }
-
 
 @media (max-width: 800px) {
 
