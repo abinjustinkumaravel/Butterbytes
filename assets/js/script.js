@@ -27,7 +27,7 @@ function renderProducts(productList) {
             <h5 class="card-title">${product.name}</h5>
             <p class="card-text">${product.description}</p>
             <p class="product-price">
-              ₹${product.discountedPrice} <span class="discounted-price">₹${product.price}</span>
+              ${product.discountedPrice} <span class="discounted-price">${product.price}</span>
             </p>
             <a href="tel:+917867987871" class="btn btn-primary">Call to Order</a>
           </div>
@@ -43,7 +43,6 @@ fetch('/data.json')
   .then(response => response.json()) 
   .then(products => {
     renderProducts(products);
-
     document.getElementById('searchInput').addEventListener('input', function () {
       const query = this.value.toLowerCase();
       const filteredProducts = products.filter(product =>
@@ -51,7 +50,6 @@ fetch('/data.json')
       );
       renderProducts(filteredProducts);
     });
-
     document.getElementById('categoryFilter').addEventListener('change', function () {
       const selectedCategory = this.value;
       const filteredProducts = selectedCategory
