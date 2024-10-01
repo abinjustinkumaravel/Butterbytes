@@ -3,7 +3,7 @@
     {
       "name": "Classic Vanilla Muffin",
       "description": "Vanilla muffins are soft, fluffy, and aromatic baked goods that showcase the classic flavor of vanilla.",
-      "price": "24/per",
+      "price": "₹24/per",
       "discountedPrice": "₹12/per",
       "rating": 4.7,
       "imageUrl": "./assets/images/vennila-murffin.jpg",
@@ -13,7 +13,7 @@
     {
       "name": "Rich chocolate Muffin",
       "description": "Rich chocolate muffins are decadent treats packed with intense chocolate flavor and a moist, fudgy texture.",
-      "price": "20/per",
+      "price": "₹20/per",
       "discountedPrice": "₹30/per",
       "rating": 4.7,
       "imageUrl": "./assets/images/chocolate-cupcake.jpg",
@@ -23,7 +23,7 @@
     {
       "name": "Almond Joy Muffin",
       "description": "Almond muffins are light and flavorful treats that showcase the rich, nutty essence of almonds.",
-      "price": "25/per",
+      "price": "₹25/per",
       "discountedPrice": "₹35/per",
       "rating": 4.7,
       "imageUrl": "./assets/images/almondjoymuffin.jpg",
@@ -33,7 +33,7 @@
     {
       "name": "Nutty Fusion Muffin",
       "description": "Nutty Fusion muffins  are almond, cashew, and raisin muffins that are deliciously nutty and sweet treat that combines the rich flavors of almonds and cashews with the natural sweetness of plump raisins.",
-      "price": "50/per",
+      "price": "₹50/per",
       "discountedPrice": "₹25/per",
       "rating": 4.7,
       "imageUrl": "./assets/images/nuttyfusionmuffin.jpg",
@@ -43,7 +43,7 @@
     {
       "name": "Vanilla bliss Cupcake",
       "description": "Vanilla buttercream cupcakes are classic, fluffy treats topped with a rich and creamy buttercream frosting.",
-      "price": "40/per",
+      "price": "₹40/per",
       "discountedPrice": "₹30/per",
       "rating": 4.7,
       "imageUrl": "./assets/images/venilacupcake.jpg",
@@ -53,7 +53,7 @@
     {
       "name": "Cocoa delight Cupcake",
       "description": "Chocolate cupcakes with buttercream frosting are rich, moist treats topped with a smooth and creamy buttercream.",
-      "price": "40/per",
+      "price": "₹40/per",
       "discountedPrice": "₹35/per",
       "rating": 4.7,
       "imageUrl": "./assets/images/cococupcake.jpg",
@@ -63,7 +63,7 @@
     {
       "name": "Pineapple paradise Cupcake",
       "description": "Pineapple buttercream cupcakes are moist, tropical-flavored treats made with pineapple and topped with a smooth, creamy pineapple-infused buttercream frosting.",
-      "price": "40/per",
+      "price": "₹40/per",
       "discountedPrice": "₹35/per",
       "rating": 4.7,
       "imageUrl": "./assets/images/pineapplecupcake.jpg",
@@ -73,7 +73,7 @@
     {
       "name": "Nutty wonderland Cupcake",
       "description": "Nuts cupcakes with buttercream frosting are moist, nutty treats packed with mixed nuts and topped with smooth, creamy buttercream. ",
-      "price": "50/per",
+      "price": "₹50/per",
       "discountedPrice": "₹40/per",
       "rating": 4.5,
       "imageUrl": "./assets/images/nuttywonderlandcupcake.jpg",
@@ -83,7 +83,7 @@
     {
       "name": "Coconut crunchies Cookies",
       "description": "Coconut cookies are light, crisp treats with a delicate tropical flavor, made from shredded coconut  and ghee for a sweet and satisfying bite.",
-      "price": "100 /100g",
+      "price": "₹100 /100g",
       "discountedPrice": "₹80 /100g",
       "rating": 4.8,
       "imageUrl": "./assets/images/cocnutcookies.jpg",
@@ -93,7 +93,7 @@
     {
       "name": "Meltaway butter cookies",
       "description": "Butter cookies are rich, tender treats with a smooth, buttery flavor and a crisp, melt-in-your-mouth texture.",
-      "price": "100/ 100g",
+      "price": "₹100/ 100g",
       "discountedPrice": "₹90/ 100g",
       "rating": 4.8,
       "imageUrl": "./assets/images/buttercookies.jpg",
@@ -103,7 +103,7 @@
     {
       "name": "Rustic Ragi butter cookies",
       "description": "Ragi cookies are nutritious, fiber-rich treats made from wholesome finger millet, offering a delicious and healthy snack option.",
-      "price": "100 / 100g",
+      "price": "₹100 / 100g",
       "discountedPrice": "₹80 /100g",
       "rating": 4.8,
       "imageUrl": "./assets/images/ragicookies.jpg",
@@ -113,7 +113,7 @@
     {
       "name": "Mini milk cookies",
       "description": "Mini milk cookies are soft, bite-sized treats with a creamy, milky flavor.",
-      "price": "100 /100g",
+      "price": "₹100 /100g",
       "discountedPrice": "₹75 /100g",
       "rating": 4.8,
       "imageUrl": "./assets/images/minicookies.jpg",
@@ -123,7 +123,7 @@
     {
       "name": "Choco chip cookies",
       "description": "Choco chip cookies are soft, buttery delights filled with rich, melty chocolate chips.",
-      "price": "100 /100g",
+      "price": "₹100 /100g",
       "discountedPrice": "₹90 /100g",
       "rating": 4.8,
       "imageUrl": "./assets/images/chococookies.jpg",
@@ -133,7 +133,7 @@
     {
       "name": "Fudgy dark chocolate brownie",
       "description": "One bite of this brownie, and chocolate heaven is just a taste away.",
-      "price": "100 /per",
+      "price": "₹100 /per",
       "discountedPrice": "₹70 /per",
       "rating": 4.7,
       "imageUrl": "./assets/images/cho-cookiie.png",
@@ -143,7 +143,7 @@
     {
       "name": "Silky white chocolate brownies",
       "description": "A creamy, decadent twist on a classic—white chocolate perfection in every bite.",
-      "price": "100 /per",
+      "price": "₹100 /per",
       "discountedPrice": "₹75 /per",
       "rating": 4.7,
       "imageUrl": "./assets/images/chocolate-brownies-white-plate.jpg",
@@ -153,7 +153,7 @@
     {
       "name": "Nuts overloaded brownies",
       "description": "A rich, fudgy brownie packed with a crunchy overload of nuts in every bite.",
-      "price": "100 /per",
+      "price": "₹100 /per",
       "discountedPrice": "₹90 /per",
       "rating": 4.7,
       "imageUrl": "./assets/images/p1.jpg",
@@ -163,7 +163,7 @@
     {
       "name": "Murukku",
       "description": "Crispy,crunchy,unforgettable.One of our best selling savoury that spirals your heart.",
-      "price": "100 /250g",
+      "price": "₹100 /250g",
       "discountedPrice": "₹90 /250g",
       "rating": 4.5,
       "imageUrl": "./assets/images/murukku.jpg",
@@ -173,7 +173,7 @@
     {
       "name": "Somas",
       "description": "Crispy Delights Wrapped in Sweetness” Enjoy our own signature somas with nuts filling.",
-      "price": "20/per",
+      "price": "₹20/per",
       "discountedPrice": "₹15/per",
       "rating": 4.5,
       "imageUrl": "./assets/images/smaos.jpeg",
@@ -183,7 +183,7 @@
     {
       "name": "Thattai",
       "description": "Our thattai recipe is just melt in mouth crunchy one.Perfectly puffed !Perfectly spiced!",
-      "price": "100 /250g",
+      "price": "₹100 /250g",
       "discountedPrice": "₹90 /250g",
       "rating": 4.8,
       "imageUrl": "./assets/images/donut's.png",
