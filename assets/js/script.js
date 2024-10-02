@@ -6,7 +6,7 @@ $(document).ready(function(){
         loop:true,
         dots:true
   //      nav:true,
-  //      navText:["<i class='fas fa-long-arrow-alt-left'></i>","<i class='fas fa-long-arrow-alt-right'></i>" ]
+  //      navText:["<i class='fas fa-long-arrow-alt-left'></i>","<i class='fas fa-long-arrow-alt-right'></i>" ]file:///home/ghost/Downloads/Koraishutir%20Kochuri%20Recipe%20-%20Bengali%20Style%20Motorshutir%20Kochuri%20-%20khaddoroshik.jpeg
     });
   });
 
